@@ -1,0 +1,222 @@
+body {
+  font-family: 'Handlee', cursive;
+  margin: 0;
+  width: 100%;
+}
+
+/*Fonts*/
+h1, h2, h3, h4, h5 {
+  margin: 0;
+}
+
+h2, h4, h5 {
+  color: #33373A;
+}
+
+
+h2 {
+  margin: 15px
+}
+
+h3 {
+  font-size: 30px;
+  font-weight: 300;
+}
+
+h4 {
+  /* padding:15px; */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+
+a {
+  color: #FFFDF7;
+  font-weight: 300;
+  margin: 0 0 10px 0;
+  text-decoration: none;
+  vertical-align: 8px;
+}
+
+.selected {
+  font-weight: 400;
+}
+
+.icon {
+  display: inline-block;
+  height: 22px;
+  margin: 0 10px;
+  width: 20px;
+}
+
+/*Header*/
+header{
+  background-color: #053C5E;
+}
+
+.header-top {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 20px;
+}
+
+
+.header-bottom {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+nav {
+  display: flex;
+  align-content: space-around;
+}
+
+.nav {
+margin-right: 25px;
+opacity: 0.5;
+}
+
+.logo {
+  float: right;
+  margin: 0 15px 10px 0;
+  width: 300px;
+}
+
+#menu-box {
+  /* background-color: #7B1113; */
+  height: 85vh;
+  padding: 5px;
+}
+
+.card-holder {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start space-around;
+}
+
+.menu-card {
+  background-color: #FFFFFF;
+  box-shadow: 0 0 10px #053C5E;
+  margin: 10px;
+  width: 17%;
+}
+
+.menu-image {
+  background:url('images/souls3.jpg') no-repeat 0 0;
+  background-size: cover;
+  height: 160px;
+  margin: 0;
+  width: 100%;
+}
+
+.menu-overview {
+  text-align: center;
+}
+
+.menu-name{
+  padding-top: 13px;
+}
+
+
+.description {
+  font-size: 12px;
+  font-weight: 300;
+  margin: 0;
+  overflow: hidden;
+  overflow-y: scroll;
+  padding: 0;
+  white-space: nowrap;
+}
+
+h4.note {
+  font-weight: 300;
+}
+
+p.entree-details {
+  color: #161033;
+}
+
+
+
+
+@media screen and (max-width: 1010px) {
+  .menu-card {
+    width: 30%;
+  }
+}
+
+
+
+@media screen and (max-width: 900px) {
+  .admin-login a,
+  .admin-menu-icon {
+    display: none;
+  }
+
+
+  nav {
+    margin: 40px;
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+  }
+
+  .nav {
+    height: 40px;
+    margin-right: 0;
+  }
+
+  .header-bottom {
+    flex-direction: column-reverse;
+  }
+
+  .logo {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 810px) {
+  nav {
+    width: 80%;
+  }
+}
+
+
+@media screen and (max-width: 790px) {
+  .menu-card {
+    width: 45%;
+  }
+
+  .menu-description p {
+    padding: 5px 15px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .nav-icon {
+    height: 40px;
+    width: 40px;
+
+  }
+
+  .nav a {
+    display: none;
+  }
+
+  .card-holder {
+    justify-content: center;
+  }
+
+  .menu-card {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .logo {
+    width: 250px;
+  }
+}
