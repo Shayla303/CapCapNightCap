@@ -101,7 +101,7 @@ opacity: 0.5;
   background-color: #FFFFFF;
   box-shadow: 0 0 10px #053C5E;
   margin: 10px;
-  width: 17%;
+  width: 18%;
 }
 
 .menu-image {
@@ -135,7 +135,7 @@ h4.note {
   font-weight: 300;
 }
 
-p.entree-details {
+h5.entree-details {
   color: #161033;
 }
 
