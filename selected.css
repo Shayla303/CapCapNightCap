@@ -95,22 +95,89 @@ opacity: 0.5;
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start space-around;
+  margin-top: 20px;
 }
 
 .menu-card {
   background-color: #FFFFFF;
   box-shadow: 0 0 10px #053C5E;
   margin: 10px;
-  width: 18%;
+  width: 30%;
 }
 
 .menu-image1 {
-  background:url('images/souls3.jpg') no-repeat 0 0;
+  background:url('images/plate.jpg') no-repeat 0 0;
   background-size: cover;
-  height: 170px;
+  height: 177px;
   margin: 0;
   width: 100%;
 }
+
+.menu-image2{
+  background:url('images/souls2.jpg') no-repeat 0 0;
+  background-size: cover;
+  height: 187px;
+  margin: 0;
+  width: 100%;
+}
+
+.menu-image3{
+  background:url('images/meatloaf.jpg') no-repeat 0 0;
+  background-size: cover;
+  height: 180px;
+  margin: 0;
+  width: 100%;
+}
+
+.menu-image4{
+  background:url('images/turkey.jpg') no-repeat 0 0;
+  background-size: cover;
+  height: 177px;
+  margin: 0;
+  width: 100%;
+}
+
+.menu-image5{
+  background:url('images/steaks.jpg') no-repeat 0 0;
+  background-size: cover;
+  height: 177px;
+  margin: 0;
+  width: 100%;
+}
+
+.menu-image6{
+  background:url('images/getti.jpg') no-repeat 0 0;
+  background-size: cover;
+  height: 177px;
+  margin: 0;
+  width: 100%;
+}
+
+.menu-image7{
+  background:url('images/beans.jpg') no-repeat 0 0;
+  background-size: cover;
+  height: 177px;
+  margin: 0;
+  width: 100%;
+}
+
+.menu-image8{
+  background:url('images/shrimpy3.jpg') no-repeat 0 0;
+  background-size: cover;
+  height: 177px;
+  margin: 0;
+  width: 100%;
+}
+
+.menu-image9{
+  background:url('images/gumbo.jpg') no-repeat 0 0;
+  background-size: cover;
+  height: 177px;
+  margin: 0;
+  width: 100%;
+}
+
+
 
 .menu-overview {
   text-align: center;
@@ -139,9 +206,13 @@ h5.entree-details {
   color: #161033;
 }
 
-/* button.addToCart {
+button.addToCart1 {
+background-color: #A4C2D9;
+}
 
-} */
+button.addToCart2 {
+background-color: #A4C2D9;
+}
 
 
 @media screen and (max-width: 1010px) {

@@ -15,8 +15,8 @@ menu2:{
 },
 menu3:{
   name: 'MaHelen\'s Meatloaf Dinner',
-  description: '3 Golden Fried fillets',
-  price: '$11.00, $5.50 for sandwich',
+  description: 'A hearty mix of beef and seasonings wrapped in bacon',
+  price: '$11.00 or $5.50 for sandwich',
   details: 'All Dinners come with 2 sides and choice of roll or cornbread and small drink',
   note: "Meatloaf can be prepared without bacon",
   picture:'https://www.google.com/search?tbm=isch&q=meatloaf+dinner+pictures&chips=q:meatloaf+dinner+pictures,g_5:comfort+food,online_chips:bacon&sa=X&ved=0ahUKEwiu0-H2n_bYAhVMXKwKHTnHD4MQ4lYIKygC&biw=1440&bih=739&dpr=2#imgrc=-QHhnh2Vuye_LM'
@@ -66,7 +66,7 @@ menu8:{
 menu9:{
   type: 'Saturday and Sunday Special',
   name: 'Shay\'s Shrimp n Grits',
-  description: 'Cheesy grits served with shrimp in a spicy tomato based sauce',
+  description: 'Cheesy grits served with shrimp in a spicy Andouile sausage in a tomato based sauce',
   price: '$12.00',
   details: 'All specials come with 1 additional side,choice of bread and a small drink',
   note:'This dish can be made w/o the sausage upon request',

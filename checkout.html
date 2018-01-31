@@ -6,6 +6,7 @@
     <link rel="stylesheet" type="text/css" href="checkout.css" />
     <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
 
 
@@ -34,11 +35,11 @@
 
 
       <section id="menu-box">
-          <h1 class="checkout"> ORDER SUMMARY $25.00</h1>
+          <!-- <h1 class="checkout"> ORDER SUMMARY $25.00</h1>
           <div class="deliver">
           <input type="radio" name="deliver" value="delivery" checked>Delivery<br>
           <input type="radio" name="pickup" value="carryout">Pick Up<br>
-          </div>
+          </div> -->
         <div class="card-holder">
           <article class="menu-card">
             <div class="menu-image1">
@@ -75,9 +76,64 @@
 
           </section>
           <!-- Form Starts -->
-          <img src="images/Orderform.png" alt="order form" class="form">
+          <!-- <img src="images/Orderform.png" alt="order form" class="form">
            <div class="wait">
              <img src="images/waiter.png" alt="wait ticker" class="waiter">
+           </div> -->
+
+           <div class="container">
+             <div id="Checkout" class="inline">
+                 <h1>Order Summary</h1>
+                 <div class="card-row">
+                     <span class="visa"></span>
+                     <span class="mastercard"></span>
+                     <span class="amex"></span>
+                     <span class="discover"></span>
+                 </div>
+                 <form>
+                     <div class="form-group">
+                         <label for="PaymentAmount">Payment Amount</label>
+                         <div class="amount-placeholder">
+                             <span>$</span>
+                             <span>25.00</span>
+                         </div>
+                     </div>
+                     <div class="form-group">
+                         <label or="NameOnCard">Name on Card</label>
+                         <input id="NameOnCard" class="form-control" type="text" maxlength="255"></input>
+                     </div>
+                     <div class="form-group">
+                         <label for="CreditCardNumber">Card Number</label>
+                         <input id="CreditCardNumber" class="null card-image form-control" type="text"></input>
+                     </div>
+                     <div class="expiry-date-group form-group">
+                         <label for="ExpiryDate">Expiration Date</label>
+                         <input id="ExpiryDate" class="form-control" type="text" placeholder="MM / YY" maxlength="7"></input>
+                     </div>
+                     <div class="security-code-group form-group">
+                         <label for="SecurityCode">Security Code</label>
+                         <div class="input-container" >
+                             <input id="SecurityCode" class="form-control" type="text" ></input>
+                             <i id="cvc" class="fa fa-question-circle"></i>
+                         </div>
+                         <div class="cvc-preview-container two-card hide">
+                             <div class="amex-cvc-preview"></div>
+                             <div class="visa-mc-dis-cvc-preview"></div>
+                         </div>
+                     </div>
+                     <div class="zip-code-group form-group">
+                         <label for="ZIPCode">ZIP/Postal Code</label>
+                         <div class="input-container">
+                             <input id="ZIPCode" class="form-control" type="text" maxlength="10"></input>
+                             <a tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="left" data-content="Enter the ZIP/Postal code for your credit card billing address."><i class="fa fa-question-circle"></i></a>
+                         </div>
+                     </div>
+                     <button id="PayButton" class="btn btn-block btn-success submit-button" type="submit">
+                         <span class="submit-button-lock"></span>
+                         <span class="align-middle">Pay $25.00</span>
+                     </button>
+                 </form>
+             </div>
            </div>
   </body>
 </html>
