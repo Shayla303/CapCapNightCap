@@ -1,0 +1,166 @@
+body {
+  font-family: 'Handlee', cursive;
+  margin: 0;
+  width: 100%;
+}
+
+/*Fonts*/
+h1, h2, h3, h4, h5 {
+  margin: 0;
+}
+
+h1{
+  margin-left: 120px;
+  padding-top: 50px;
+}
+
+h2, h4, h5 {
+  color: #33373A;
+}
+
+
+h2 {
+  margin: 15px
+}
+
+h3 {
+  font-size: 30px;
+  font-weight: 300;
+}
+
+h4 {
+  /* padding:15px; */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+
+a {
+  color: #FFFDF7;
+  font-weight: 300;
+  margin: 0 0 10px 0;
+  text-decoration: none;
+  vertical-align: 8px;
+}
+
+.selected:hover {
+  font-weight: 400;
+  color: #FFFDF7;
+}
+
+
+/*Header*/
+header{
+  background-color: #053C5E;
+}
+
+.header-top {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 20px;
+}
+
+
+.header-bottom {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+nav {
+  display: flex;
+  align-content: space-around;
+}
+
+.nav {
+margin-right: 25px;
+opacity: 0.5;
+}
+
+.nav:hover {
+  opacity: 1;
+}
+
+.logo {
+  float: right;
+  margin: 5px 25px 15px 0;
+  width: 300px;
+}
+
+#menu-box {
+  background-color: #D5D0CE;
+  height: 102vh;
+  padding: 5px;
+}
+
+
+.card-holder {
+  background-color: #D5D0CE;
+  flex-wrap: wrap;
+}
+
+
+.menu-card {
+  background-color: #FFFFFF;
+  box-shadow: 0 0 18px #053C5E;
+  margin-top: 10px;
+  margin: 60px;
+  width: 18%;
+}
+
+.menu-card3 {
+  background-color: #FFFFFF;
+  box-shadow: 0 0 18px #053C5E;
+  height:500px;
+  margin-right: 80px;
+  margin-top: -700px;
+  float:right;
+  width: 20%;
+}
+
+.menu-image1 {
+  background:url('images/granny.jpg') no-repeat 0 0;
+  background-size: cover;
+  height: 320px;
+  margin: 0;
+  width: 100%;
+}
+
+.menu-image2{
+  background:url('images/nana.jpg') no-repeat 0 0;
+  background-size: cover;
+  height: 320px;
+  margin: 0;
+  width: 100%;
+}
+
+.menu-image3{
+  background:url('images/mommy.jpg') no-repeat 0 0;
+  background-size: cover;
+  height: 429px;
+  margin: 0;
+  width: 100%;
+}
+
+.menu-overview {
+  background-color: #A7BCC6;
+  text-align: center;
+}
+
+.menu-name{
+  padding-top: 13px;
+}
+
+
+.description {
+  /* background-color: #7B9AAA; */
+  font-size: 12px;
+  font-weight: 300;
+  margin: 0;
+  overflow: hidden;
+  overflow-y: scroll;
+  padding: 0;
+  white-space: nowrap;
+}
