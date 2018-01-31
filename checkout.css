@@ -9,6 +9,11 @@ h1, h2, h3, h4, h5 {
   margin: 0;
 }
 
+h1{
+  margin-left: 120px;
+  padding-top: 50px;
+}
+
 h2, h4, h5 {
   color: #33373A;
 }
@@ -86,28 +91,44 @@ opacity: 0.5;
 
 #menu-box {
   background-color: #D5D0CE;
-  height: 85vh;
+  height: 100vh;
   padding: 5px;
 }
 
 .card-holder {
   background-color: #D5D0CE;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start space-around;
+  display:block;
+  margin-left: 50px;
 }
 
 .menu-card {
   background-color: #FFFFFF;
-  box-shadow: 0 0 10px #053C5E;
+  box-shadow: 0 0 18px #053C5E;
+  margin-top: 10px;
   margin: 10px;
   width: 18%;
 }
 
 .menu-image1 {
-  background:url('images/souls3.jpg') no-repeat 0 0;
+  background:url('images/plate.jpg') no-repeat 0 0;
+  background-size: cover;
+  height: 175px;
+  margin: 0;
+  width: 100%;
+}
+
+.menu-image2{
+  background:url('images/souls2.jpg') no-repeat 0 0;
   background-size: cover;
   height: 170px;
+  margin: 0;
+  width: 100%;
+}
+
+.menu-image3{
+  background:url('images/souls5.jpg') no-repeat 0 0;
+  background-size: cover;
+  height: 160px;
   margin: 0;
   width: 100%;
 }
@@ -139,85 +160,25 @@ h5.entree-details {
   color: #161033;
 }
 
-/* button.addToCart {
-
-} */
-
-
-@media screen and (max-width: 1010px) {
-  .menu-card {
-    width: 30%;
-  }
+button.addToCart {
+background-color: #396880;
 }
 
-
-
-@media screen and (max-width: 900px) {
-{
-    display: none;
-  }
-
-
-  nav {
-    margin: 40px;
-    display: flex;
-    justify-content: space-between;
-    width: 60%;
-  }
-
-  .nav {
-    height: 40px;
-    margin-right: 0;
-  }
-
-  .header-bottom {
-    flex-direction: column-reverse;
-  }
-
-  .logo {
-    margin: 0;
-  }
+img.form {
+margin-left: 900px;
+margin-bottom: 150px;
+margin-top: -1400px;
 }
 
-@media screen and (max-width: 810px) {
-  nav {
-    width: 80%;
-  }
+.waiter {
+  height:300px;
+  margin-bottom: 400px;
+  margin-left: 550px;
+  margin-top: -1200px;
+  border-radius: 30px;
 }
 
-
-@media screen and (max-width: 790px) {
-  .menu-card {
-    width: 45%;
-  }
-
-  .menu-description p {
-    padding: 5px 15px;
-  }
-}
-
-@media screen and (max-width: 620px) {
-     {
-    height: 40px;
-    width: 40px;
-
-  }
-
-  .nav a {
-    display: none;
-  }
-
-  .card-holder {
-    justify-content: center;
-  }
-
-  .menu-card {
-    width: 300px;
-  }
-}
-
-@media screen and (max-width: 420px) {
-  .logo {
-    width: 250px;
-  }
+.deliver{
+  margin-bottom: 20px;
+  margin-left: 200px;
 }
