@@ -95,6 +95,7 @@ opacity: 0.5;
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start space-around;
+  margin-top: 20px;
 }
 
 .menu-card {

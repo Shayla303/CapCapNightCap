@@ -242,7 +242,7 @@ background-color: #A4C2D9;
 }
 
 .container {
-  margin-top: 50px;
+  margin-top: 2px;
 }
 
 #Checkout {
@@ -255,8 +255,8 @@ background-color: #A4C2D9;
   background: 0 0 #ffffff;
   border-radius: 8px;
   /* border: 5px solid #053C5E; */
-  margin-left: 595px;
-  margin-top: -1550px;
+  margin-left: 620px;
+  margin-top: -1500px;
   display: block;
 }
 
